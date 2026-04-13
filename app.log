@@ -1,0 +1,22 @@
+[12/4/2026, 9:30:59 p.m.] | [DEBUG] | Petición recibida en endpoint /login - Detalles: {"email":"prueba@test.com","password":"***[PROTEGIDO]***"}
+[12/4/2026, 9:30:59 p.m.] | [INFO] | Usuario autenticado exitosamente (Camino feliz) - Detalles: {"id":1,"email":"prueba@test.com","token_generado":"***[PROTEGIDO]***"}
+[12/4/2026, 9:48:25 p.m.] | [DEBUG] | Petición recibida en endpoint /registro - Detalles: {"email":"prueba5@test.com","password":"***[PROTEGIDO]***"}
+[12/4/2026, 9:48:25 p.m.] | [INFO] | Usuario registrado exitosamente (Camino feliz) - Detalles: {"id_nuevo_usuario":5,"email":"prueba5@test.com"}
+[12/4/2026, 9:48:52 p.m.] | [DEBUG] | Petición recibida en endpoint /login - Detalles: {"email":"prueba@test.com","password":"***[PROTEGIDO]***"}
+[12/4/2026, 9:48:52 p.m.] | [INFO] | Usuario autenticado exitosamente (Camino feliz) - Detalles: {"id":1,"email":"prueba@test.com","token_generado":"***[PROTEGIDO]***"}
+[12/4/2026, 9:55:32 p.m.] | [DEBUG] | Iniciando proceso de inscripción - Detalles: {"usuario_id":1,"curso_id":1}
+[12/4/2026, 9:55:32 p.m.] | [INFO] | Inscripción completada exitosamente - Detalles: {"inscripcion_id":3,"usuario_id":1,"curso_id":1}
+[12/4/2026, 9:56:21 p.m.] | [DEBUG] | Petición GET recibida en /resumen - Detalles: {"id_solicitado":"1"}
+[12/4/2026, 9:56:21 p.m.] | [INFO] | Resumen académico generado exitosamente - Detalles: {"usuarioId":1,"email":"prueba@test.com","total_cursos_inscritos":3}
+[12/4/2026, 9:57:30 p.m.] | [DEBUG] | Petición de actualización de contraseña recibida - Detalles: {"email":"prueba@test.com","currentPassword":"***[PROTEGIDO]***","newPassword":"***[PROTEGIDO]***"}
+[12/4/2026, 9:57:30 p.m.] | [INFO] | Contraseña de usuario actualizada exitosamente - Detalles: {"email":"prueba@test.com"}
+[12/4/2026, 9:57:57 p.m.] | [DEBUG] | Petición recibida para actualizar rol - Detalles: {"email":"prueba@test.com","role_solicitado":"administrador"}
+[12/4/2026, 9:57:57 p.m.] | [INFO] | Rol de usuario actualizado exitosamente - Detalles: {"email":"prueba@test.com","rol_anterior":"admin","nuevo_rol":"administrador"}
+[12/4/2026, 10:02:21 p.m.] | [DEBUG] | Petición recibida en endpoint /login - Detalles: {"email":"prueba@test.com","password":"***[PROTEGIDO]***"}
+[12/4/2026, 10:02:21 p.m.] | [INFO] | Usuario autenticado exitosamente (Camino feliz) - Detalles: {"id":1,"email":"prueba@test.com","token_generado":"***[PROTEGIDO]***"}
+[12/4/2026, 10:03:22 p.m.] | [DEBUG] | Petición recibida en endpoint /login - Detalles: {"email":"prueba@test.com","password":"***[PROTEGIDO]***"}
+[12/4/2026, 10:03:22 p.m.] | [WARNING] | Intento de login fallido: Contraseña incorrecta - Detalles: {"email":"prueba@test.com"}
+[12/4/2026, 10:03:33 p.m.] | [DEBUG] | Petición recibida en endpoint /login - Detalles: {"email":"prueba@test.com","password":"***[PROTEGIDO]***"}
+[12/4/2026, 10:03:33 p.m.] | [WARNING] | Intento de login fallido: Contraseña incorrecta - Detalles: {"email":"prueba@test.com"}
+[12/4/2026, 10:03:34 p.m.] | [DEBUG] | Petición recibida en endpoint /login - Detalles: {"email":"prueba@test.com","password":"***[PROTEGIDO]***"}
+[12/4/2026, 10:03:34 p.m.] | [WARNING] | Intento de login fallido: Contraseña incorrecta - Detalles: {"email":"prueba@test.com"}
